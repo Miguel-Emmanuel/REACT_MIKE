@@ -9,28 +9,7 @@ import { BOT_05 } from './src/screens/BOT_05';
 
 const image = { uri: "https://reactjs.org/logo-og.png" };
 export const App = () => {
-  return (
- <BOT_01/>
-  )
-}
-export default App; 
-
-   <View style={{ flex: 1, flexDirection: 'row' }}>
-        <View style={{ flex: 2, backgroundColor: 'blue',}}></View>
-        <View style={{ flex: 3 }}>
-      <View style={{flex:1, backgroundColor:'red', flexDirection:'column'}}>
-
-      </View>
-  
-  
-        <View style={{flex:1, backgroundColor:'black', flexDirection:'column'}}></View>
-     
-      </View>
-       </View>
-
-
-/*
- <View style={{ flex: 1, flexDirection: 'row' }}>
+  return (<View style={{ flex: 1, flexDirection: 'row' }}>
         <View style={{ flex: 2, backgroundColor: 'blue',}}>
 
         <Text style={{
@@ -109,7 +88,7 @@ PROYECTO GUIA DE ESTUDIO    </Text>
        
   );
 };
-*/
+
 
 
 
